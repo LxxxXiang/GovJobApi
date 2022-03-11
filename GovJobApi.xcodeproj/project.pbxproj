@@ -14,6 +14,17 @@
 		0202E55727CBC79E00392697 /* GovJobApi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0202E55527CBC79E00392697 /* GovJobApi.xcdatamodeld */; };
 		0202E55927CBC79F00392697 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0202E55827CBC79F00392697 /* Assets.xcassets */; };
 		0202E55C27CBC79F00392697 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0202E55A27CBC79F00392697 /* LaunchScreen.storyboard */; };
+		022F43F127D0A0330082FFA0 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022F43F027D0A0330082FFA0 /* Test.swift */; };
+		024917F327D205DE00EC62EA /* SearchDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024917F227D205DE00EC62EA /* SearchDetailVC.swift */; };
+		024917F527D20C2B00EC62EA /* SearchDetailTextFieldVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024917F427D20C2B00EC62EA /* SearchDetailTextFieldVC.swift */; };
+		025DD2C127CF1553005D2A2F /* TestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025DD2C027CF1553005D2A2F /* TestAPI.swift */; };
+		02BFDC0C27CD22EC00A8BA38 /* SegueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BFDC0B27CD22EC00A8BA38 /* SegueVC.swift */; };
+		02BFDC0E27CD2A9700A8BA38 /* SearchSugueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BFDC0D27CD2A9700A8BA38 /* SearchSugueVC.swift */; };
+		02BFDC1027CD300200A8BA38 /* CollectionSegueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BFDC0F27CD300200A8BA38 /* CollectionSegueVC.swift */; };
+		02E3B57D27CC9FEA002D10AE /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E3B57C27CC9FEA002D10AE /* FirstVC.swift */; };
+		02E3B57F27CC9FF6002D10AE /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E3B57E27CC9FF6002D10AE /* SecondVC.swift */; };
+		02E3B58127CCA008002D10AE /* ThirdVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E3B58027CCA008002D10AE /* ThirdVC.swift */; };
+		3C82607EACC20990DFBD6171 /* Pods_GovJobApi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F82FC9C98EC0C33C1B4E4D9 /* Pods_GovJobApi.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +37,19 @@
 		0202E55827CBC79F00392697 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0202E55B27CBC79F00392697 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0202E55D27CBC79F00392697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		022F43F027D0A0330082FFA0 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		024917F227D205DE00EC62EA /* SearchDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDetailVC.swift; sourceTree = "<group>"; };
+		024917F427D20C2B00EC62EA /* SearchDetailTextFieldVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDetailTextFieldVC.swift; sourceTree = "<group>"; };
+		025DD2C027CF1553005D2A2F /* TestAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAPI.swift; sourceTree = "<group>"; };
+		02BFDC0B27CD22EC00A8BA38 /* SegueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueVC.swift; sourceTree = "<group>"; };
+		02BFDC0D27CD2A9700A8BA38 /* SearchSugueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchSugueVC.swift; sourceTree = "<group>"; };
+		02BFDC0F27CD300200A8BA38 /* CollectionSegueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionSegueVC.swift; sourceTree = "<group>"; };
+		02E3B57C27CC9FEA002D10AE /* FirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
+		02E3B57E27CC9FF6002D10AE /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
+		02E3B58027CCA008002D10AE /* ThirdVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdVC.swift; sourceTree = "<group>"; };
+		3F82FC9C98EC0C33C1B4E4D9 /* Pods_GovJobApi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GovJobApi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40E8258419220A046B3D0BB2 /* Pods-GovJobApi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GovJobApi.release.xcconfig"; path = "Target Support Files/Pods-GovJobApi/Pods-GovJobApi.release.xcconfig"; sourceTree = "<group>"; };
+		6138552C7AFD82A87B766624 /* Pods-GovJobApi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GovJobApi.debug.xcconfig"; path = "Target Support Files/Pods-GovJobApi/Pods-GovJobApi.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C82607EACC20990DFBD6171 /* Pods_GovJobApi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +69,8 @@
 			children = (
 				0202E54B27CBC79E00392697 /* GovJobApi */,
 				0202E54A27CBC79E00392697 /* Products */,
+				CF9C4DF587D21195EF241136 /* Pods */,
+				AC05AEAB0385C60900DFF315 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,12 +89,39 @@
 				0202E54E27CBC79E00392697 /* SceneDelegate.swift */,
 				0202E55027CBC79E00392697 /* ViewController.swift */,
 				0202E55227CBC79E00392697 /* Main.storyboard */,
+				02E3B57C27CC9FEA002D10AE /* FirstVC.swift */,
+				02E3B57E27CC9FF6002D10AE /* SecondVC.swift */,
+				02E3B58027CCA008002D10AE /* ThirdVC.swift */,
+				02BFDC0B27CD22EC00A8BA38 /* SegueVC.swift */,
+				02BFDC0D27CD2A9700A8BA38 /* SearchSugueVC.swift */,
+				02BFDC0F27CD300200A8BA38 /* CollectionSegueVC.swift */,
+				025DD2C027CF1553005D2A2F /* TestAPI.swift */,
+				024917F227D205DE00EC62EA /* SearchDetailVC.swift */,
+				024917F427D20C2B00EC62EA /* SearchDetailTextFieldVC.swift */,
+				022F43F027D0A0330082FFA0 /* Test.swift */,
 				0202E55827CBC79F00392697 /* Assets.xcassets */,
 				0202E55A27CBC79F00392697 /* LaunchScreen.storyboard */,
 				0202E55D27CBC79F00392697 /* Info.plist */,
 				0202E55527CBC79E00392697 /* GovJobApi.xcdatamodeld */,
 			);
 			path = GovJobApi;
+			sourceTree = "<group>";
+		};
+		AC05AEAB0385C60900DFF315 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F82FC9C98EC0C33C1B4E4D9 /* Pods_GovJobApi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF9C4DF587D21195EF241136 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6138552C7AFD82A87B766624 /* Pods-GovJobApi.debug.xcconfig */,
+				40E8258419220A046B3D0BB2 /* Pods-GovJobApi.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +131,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0202E56027CBC7A000392697 /* Build configuration list for PBXNativeTarget "GovJobApi" */;
 			buildPhases = (
+				E610CE0BFB0D489FD9506592 /* [CP] Check Pods Manifest.lock */,
 				0202E54527CBC79E00392697 /* Sources */,
 				0202E54627CBC79E00392697 /* Frameworks */,
 				0202E54727CBC79E00392697 /* Resources */,
+				77D8CBCF1EEC8ED35EA13FD6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,6 +192,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		77D8CBCF1EEC8ED35EA13FD6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GovJobApi/Pods-GovJobApi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GovJobApi/Pods-GovJobApi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GovJobApi/Pods-GovJobApi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E610CE0BFB0D489FD9506592 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GovJobApi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0202E54527CBC79E00392697 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -143,7 +241,17 @@
 			files = (
 				0202E55127CBC79E00392697 /* ViewController.swift in Sources */,
 				0202E54D27CBC79E00392697 /* AppDelegate.swift in Sources */,
+				02BFDC0C27CD22EC00A8BA38 /* SegueVC.swift in Sources */,
+				02BFDC0E27CD2A9700A8BA38 /* SearchSugueVC.swift in Sources */,
 				0202E54F27CBC79E00392697 /* SceneDelegate.swift in Sources */,
+				024917F327D205DE00EC62EA /* SearchDetailVC.swift in Sources */,
+				022F43F127D0A0330082FFA0 /* Test.swift in Sources */,
+				025DD2C127CF1553005D2A2F /* TestAPI.swift in Sources */,
+				02E3B58127CCA008002D10AE /* ThirdVC.swift in Sources */,
+				024917F527D20C2B00EC62EA /* SearchDetailTextFieldVC.swift in Sources */,
+				02E3B57D27CC9FEA002D10AE /* FirstVC.swift in Sources */,
+				02E3B57F27CC9FF6002D10AE /* SecondVC.swift in Sources */,
+				02BFDC1027CD300200A8BA38 /* CollectionSegueVC.swift in Sources */,
 				0202E55727CBC79E00392697 /* GovJobApi.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +396,7 @@
 		};
 		0202E56127CBC7A000392697 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6138552C7AFD82A87B766624 /* Pods-GovJobApi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -316,6 +425,7 @@
 		};
 		0202E56227CBC7A000392697 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40E8258419220A046B3D0BB2 /* Pods-GovJobApi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
